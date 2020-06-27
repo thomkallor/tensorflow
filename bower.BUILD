@@ -61,7 +61,6 @@ filegroup(
 
 filegroup(
     name = "sinonjs",
-    srcs = ["sinon.js"],
 )
 
 filegroup(
