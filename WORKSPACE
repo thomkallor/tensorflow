@@ -310,6 +310,7 @@ new_http_archive(
   build_file = "bower.BUILD",
   url = "https://github.com/palantir/plottable/archive/v1.16.1.tar.gz",
   strip_prefix = "plottable-1.16.1",
+  sha256 = "71f7e0dc1f1354ec1c706e2c5c809f69b6e9dfa94d9f51db37a31b9210b12be2"
 )
 
 new_git_repository(
