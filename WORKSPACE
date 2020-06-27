@@ -305,11 +305,11 @@ new_git_repository(
   tag = "v1.0.7",
 )
 
-new_git_repository(
+new_http_archive(
   name = "plottable",
   build_file = "bower.BUILD",
-  remote = "https://github.com/palantir/plottable.git",
-  tag = "v1.16.1",
+  url = "https://github.com/palantir/plottable/archive/v1.16.1.tar.gz",
+  strip_prefix = "plottable-1.16.1",
 )
 
 new_git_repository(
