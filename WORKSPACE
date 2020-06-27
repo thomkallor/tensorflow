@@ -112,7 +112,7 @@ new_git_repository(
 new_git_repository(
   name = "sinonjs",
   build_file = "bower.BUILD",
-  remote = "https://github.com/blittle/sinon.js.git",
+  remote = "https://github.com/sinonjs/sinon.git",
   tag = "v1.17.1",
 )
 
