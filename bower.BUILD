@@ -664,9 +664,9 @@ filegroup(
 filegroup(
     name = "plottable",
     srcs = [
-        "plottable.css",
-        "plottable.js",
-        "plottable.min.js",
+        "plottable-1.16.1/plottable.css",
+        "plottable-1.16.1/plottable.js",
+        "plottable-1.16.1/plottable.min.js",
     ],
 )
 
